@@ -44,7 +44,7 @@ const EquipmentMap = ({ onSelectEquipment }) => {
                 // Custom icon com cor baseada no estado do equipamento
                 const customIcon = L.divIcon({
                     className: 'custom-marker',
-                    html: `<div style="background-color: ${iconColor}; width: 20px; height: 20px; border-radius: 50%;"></div>`,
+                    html: `<div style="background-color: ${iconColor}; width: 30px; height: 30px; border-radius: 50%;"></div>`,
                 });
 
                 return (
